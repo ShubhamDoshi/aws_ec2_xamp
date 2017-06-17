@@ -7,7 +7,7 @@ Goto Terminal
 sudo su
 apt-get update
 apt-get upgrade -y
-apt-get dist-upgrade -y
+apt-get dist-upgrade -y 
 apt-get autoremove -y
 
 For Install PHP7.0 Mysql PhpMyAdmin & Apache 2
