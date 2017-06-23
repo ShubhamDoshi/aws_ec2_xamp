@@ -12,7 +12,7 @@ apt-get autoremove -y<br/>
 
 For Install PHP7.0 Mysql PhpMyAdmin & Apache 2<br/>
 <br/>
-apt-get install apache2 php7.0 php7.0-cli php7.0-fpm php7.0-gd libapache2-mod-php7.0 php7.0-mcrypt mysql-server php7.0-mysql git unzip zip postfix php7.0-curl mailutils php7.0-json phpmyadmin -y php7.0enmod mcrypt<br/>
+apt-get install apache2 php7.0 php7.0-cli php7.0-fpm php7.0-gd libapache2-mod-php7.0 php7.0-mcrypt mysql-server php7.0-mysql git unzip zip postfix php7.0-curl mailutils php7.0-json phpmyadmin -y  mcrypt<br/>
 <br/>
 nano /etc/apache2/sites-enabled/000-default.conf<br/>
 --ADD LINE-- <br/>
